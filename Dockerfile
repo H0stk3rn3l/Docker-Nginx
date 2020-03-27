@@ -8,6 +8,9 @@ RUN \
     apt install -y nginx && \
     echo "\ndaemon off;" >> /etc/nginx/nginx.conf 
 
+# Define mountable directories.
+VOLUME ["/var/www/html"]
+
 # Expose ports.
 EXPOSE 80
 
