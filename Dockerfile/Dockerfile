@@ -5,7 +5,7 @@ FROM ubuntu:latest
 RUN \
     apt update && \
     apt upgrade -y && \
-    apt install -y nginx \
+    apt install -y nginx && \
     echo "\ndaemon off;" >> /etc/nginx/nginx.conf && \
 
 # Expose ports.
