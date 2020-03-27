@@ -1,7 +1,6 @@
 # Pull base Image
-#FROM ubuntu:latest
 FROM ubuntu:latest
-# Install Nginx
+
 RUN \
     apt update && \
     apt upgrade -y && \
