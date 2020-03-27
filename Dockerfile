@@ -1,6 +1,6 @@
 # Pull base Image
 #FROM ubuntu:latest
-FROM scratch
+FROM alpine:3.10
 # Install Nginx
 RUN \
     apt update && \
