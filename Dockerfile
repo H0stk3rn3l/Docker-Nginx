@@ -1,6 +1,6 @@
 # Pull base Image
-FROM ubuntu:latest
-
+#FROM ubuntu:latest
+FROM scratch
 # Install Nginx
 RUN \
     apt update && \
